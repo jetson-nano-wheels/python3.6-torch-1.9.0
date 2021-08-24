@@ -17,8 +17,9 @@ source venv/bin/activate
 
 echo "Updating build toolset."
 pip install --upgrade pip==21.2.4 setuptools==57.4.0 wheel==0.37.0
+
 echo "Installing known version of numpy."
-pip install 'https://github.com/jetson-nano-wheels/python3.6-numpy-1.19.4/releases/download/v0.0.1/numpy-1.19.4-cp36-cp36m-linux_aarch64.whl'
+pip install 'https://github.com/jetson-nano-wheels/python3.6-numpy-1.19.4/releases/download/v0.0.2/numpy-1.19.4-cp36-cp36m-linux_aarch64.whl'
 
 # The binary is too large for Github which currently has a 100 MB limit
 # https://docs.github.com/en/github/managing-large-files/working-with-large-files/conditions-for-large-files
